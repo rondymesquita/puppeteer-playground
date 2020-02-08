@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pdf": "node ./pdf-generator/index.js",
+    "pdf:watch": "nodemon ./pdf-generator/index.js -w ./pdf-generator/page.html -w ./pdf-generator/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "LICENSE": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
